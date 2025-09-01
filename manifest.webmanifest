@@ -9,8 +9,8 @@
     "description": "Portfolio and projects by Win Pyae.",
     "icons": [
       { "src": "images/icons/siteLogoWhite.png", "sizes": "192x192", "type": "image/png" },
-      { "src": "images/icons/siteLogoWhite.png", "sizes": "512x512", "type": "image/png" },
-      { "src": "images/icons/siteLogoWhite.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+      { "src": "images/icons/siteLogoWhite-512.png", "sizes": "512x512", "type": "image/png" },
+      { "src": "images/icons/siteLogoWhite-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
     ]
   }
 
