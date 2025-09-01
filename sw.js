@@ -3,8 +3,8 @@ const OFFLINE_URL = 'offline.html';
 const PRECACHE = [
   OFFLINE_URL,
   'images/icons/siteLogoWhite.png',
-  'images/icons/siteLogoWhite.png',
-  'images/icons/siteLogoWhite.png'
+  'images/icons/siteLogoWhite-512.png',
+  'images/icons/siteLogoWhite-maskable.png'
   // add your CSS/JS assets here if they’re small & rarely change
 ];
 
