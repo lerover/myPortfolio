@@ -2,9 +2,9 @@ const CACHE_NAME = 'pwa-winpyae-portfolio-v1';
 const OFFLINE_URL = 'offline.html';
 const PRECACHE = [
   OFFLINE_URL,
-  'images/icons/siteLogoWhite.jpg',
-  'images/icons/siteLogoWhite.jpg',
-  'images/icons/siteLogoWhite.jpg'
+  'images/icons/siteLogoWhite.png',
+  'images/icons/siteLogoWhite.png',
+  'images/icons/siteLogoWhite.png'
   // add your CSS/JS assets here if they’re small & rarely change
 ];
 
