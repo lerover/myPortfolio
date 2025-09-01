@@ -104,6 +104,17 @@ html,body{
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
+/* splash screen effect */
+#loading-screen {
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+
 /* ------------------------------------------------------------------- 
  * ## colors
  * ------------------------------------------------------------------- */

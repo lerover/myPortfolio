@@ -34,7 +34,22 @@
 
 
 <body id="top">
-    
+      <!-- Loading screen -->
+  <div id="loading-screen" style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000; /* your PWA background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    ">
+        <img src="images/icons/siteLogoWhite.png" alt="Logo" style="width:100px; height:100px;">
+    </div>
+
     <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -577,6 +592,12 @@
                 navigator.serviceWorker.register('./sw.js?v=1').catch(console.error);
             });
         }
+
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loading-screen');
+            if(loader) loader.classList.add('hidden');
+            setTimeout(() => loader.style.display='none', 500); // remove from DOM after fade
+        });
     </script>
 
 </body>
