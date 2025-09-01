@@ -26,6 +26,10 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="icon/font-awesome-4.7.0/css/font-awesome.min.css">
 
+
+    <!-- pwa -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#0ea5e9">
 </head>
 
 
@@ -566,6 +570,14 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                // add a version query so GitHub Pages doesn’t aggressively cache sw.js
+                navigator.serviceWorker.register('./sw.js?v=1').catch(console.error);
+            });
+        }
+    </script>
 
 </body>
 </html>

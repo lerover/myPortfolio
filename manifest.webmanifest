@@ -1,0 +1,16 @@
+{
+    "name": "Win Pyae — Portfolio",
+    "short_name": "Portfolio",
+    "start_url": ".",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0ea5e9",
+    "description": "Portfolio and projects by Your Name.",
+    "icons": [
+      { "src": "images/icons/siteLogoWhite.jpg", "sizes": "192x192", "type": "image/jpg" },
+      { "src": "images/icons/siteLogoWhite.jpg", "sizes": "512x512", "type": "image/jpg" },
+      { "src": "images/icons/siteLogoWhite.jpg", "sizes": "512x512", "type": "image/jpg", "purpose": "maskable any" }
+    ]
+  }
+  
